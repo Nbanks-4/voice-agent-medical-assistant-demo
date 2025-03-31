@@ -1,0 +1,99 @@
+.note-output {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.note-output h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #3498db;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  color: #7f8c8d;
+}
+
+.note-content {
+  min-height: 300px;
+}
+
+.placeholder {
+  text-align: center;
+  padding: 40px 20px;
+  color: #95a5a6;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.formatted-note {
+  display: flex;
+  flex-direction: column;
+}
+
+.soap-note {
+  line-height: 1.6;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  border-left: 4px solid #3498db;
+}
+
+.soap-section {
+  margin-bottom: 20px;
+}
+
+.soap-note h1 {
+  color: #2c3e50;
+  font-size: 22px;
+  margin-bottom: 12px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.soap-note strong {
+  color: #34495e;
+  font-weight: 600;
+}
+
+.soap-note ul {
+  margin: 0;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.soap-note li {
+  margin-bottom: 5px;
+}
+
+.markdown-content {
+  white-space: pre-line;
+}
+
+.note-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.note-actions button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.note-actions button:hover {
+  background-color: #2980b9;
+}
